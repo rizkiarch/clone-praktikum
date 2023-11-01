@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+<body>
+	<h2>Form</h2>
+	<!-- 
+		Membuat form di HTML menggunakan tag form.
+
+		Untuk membuat kolom inputan, kita menggunakan tag input.
+		Tag input memiliki atribut type. Value dari atribut type akan menentukan jenis inputan yang akan ditampilkan di browser.
+		Terdapat beberapa value dari atribut type yang sering digunakan:
+			- text: inputan berupa teks
+			- password: inputan berupa password
+			- email: inputan berupa email
+			- radio: inputan berupa radio (inputan hanya bisa dipilih salah satu)
+			- checkbox: inputan berupa checkbox (inputan bisa dipilih lebih dari satu)
+
+		Untuk membuat button submit, kita menggunakan tag button.
+		Agar button bisa mensubmit form, maka kita memberikan atribut type dengan nilai submit.
+	 -->
+	<form action="">
+		<label>Masukan Nama</label>
+		<input type="text">
+		<br>
+
+		<label>Masukan Password</label>
+		<input type="password">
+		<br>
+
+		<label>Masukan Email</label>
+		<input type="email">
+		<br>
+
+		<label>Jenis Kelamin</label>
+		<input type="radio" name="jk">Laki-Laki
+		<input type="radio" name="jk">Perempuan
+		<br>
+
+		<label>Hobi</label>
+		<input type="checkbox">Membaca
+		<input type="checkbox">Menulis
+		<input type="checkbox">Futsal
+		<br>
+
+		<button type="submit">Kirim</button>
+	</form>
+</body>
+</html>
